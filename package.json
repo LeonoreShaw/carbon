@@ -5,10 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonoreShaw/carbon.git"
+    "url": "git+https://github.com/carbon-app/carbon.git"
   },
   "bugs": {
-    "url": "https://github.com/LeonoreShaw/carbon/issues"
+    "url": "https://github.com/carbon-app/carbon/issues"
   },
   "homepage": "https://carbon.now.sh",
   "engines": {
