@@ -6,7 +6,7 @@ describe('security', () => {
     const stub = cy.stub()
     cy.on('window:alert', stub)
 
-    // https://github.com/carbon-app/carbon/issues/192
+    // https://github.com/LeonoreShaw/carbon/issues/192
     cy.visit(`?bg=rgba(171, 184, 195, 1)</style><img src="" onerror="alert('xss')" /><!--`)
 
     editorVisible()

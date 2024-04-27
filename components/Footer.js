@@ -11,7 +11,7 @@ const Footer = () => (
           about
         </a>
       </Link>
-      <a className="link" href="https://github.com/carbon-app/carbon">
+      <a className="link" href="https://github.com/LeonoreShaw/carbon">
         source
       </a>
       <a className="link" href="/terms">
@@ -28,8 +28,8 @@ const Footer = () => (
 
     <div className="mt2 mb2">
       created by{' '}
-      <a className="author-link" href="https://twitter.com/carbon_app">
-        @carbon_app
+      <a className="author-link" href="https://xxiao.org">
+        xxiao.org
       </a>{' '}
       ¬
     </div>

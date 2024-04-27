@@ -19,7 +19,7 @@ const toIFrame = (url, width, height) =>
 `
 
 const toURL = url => `${location.origin}${url}`
-// Medium does not handle asterisks correctly - https://github.com/carbon-app/carbon/issues/1067
+// Medium does not handle asterisks correctly - https://github.com/LeonoreShaw/carbon/issues/1067
 const replaceAsterisks = string => string.replace(/\*/g, '%2A')
 const toEncodedURL = morph.compose(encodeURI, replaceAsterisks, toURL)
 
